@@ -8,7 +8,6 @@ img {
   top: 0%;
   right: auto;
   bottom: auto;
-  z-index: 10;
 }
 
 .top-right {
@@ -17,7 +16,6 @@ img {
   top: 0%;
   right: 0%;
   bottom: auto;
-  z-index: 10;
   text-align: right;
 }
 
@@ -27,7 +25,6 @@ img {
   top: auto;
   right: auto;
   bottom: 0%;
-  z-index: 10;
   width: 18vh;
 }
 
@@ -37,7 +34,6 @@ img {
   top: auto;
   right: 0%;
   bottom: 0%;
-  z-index: 10;
   text-align: right;
 }
 
@@ -707,6 +703,8 @@ img {
 
 .answer-block {
   margin-bottom: 5vh;
+  font-size: 1.4vh;
+  line-height: 2.5vh;
 }
 
 .text-link {
@@ -778,7 +776,35 @@ img {
   opacity: 0;
 }
 
+.faq-container-tablet {
+  display: none;
+  width: 135vh;
+  height: 60vh;
+  background-image: url('../images/box-large.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.faq-container-phone {
+  display: none;
+  width: 135vh;
+  height: 60vh;
+  background-image: url('../images/box-large.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.tabs-container-phone {
+  position: absolute;
+  display: none;
+  margin-top: -1vh;
+}
+
 @media screen and (max-width: 991px) {
+  .top-right {
+    z-index: 2;
+  }
+
   .mid-clouds-image {
     width: 120vw;
     margin-top: 12vh;
@@ -798,9 +824,70 @@ img {
     margin-left: 120vw;
   }
 
+  .faq {
+    display: none;
+  }
+
+  .link-block {
+    width: 14vh;
+    height: 9vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    font-size: 1.2vh;
+    line-height: 1.8vh;
+  }
+
+  .tabs-container {
+    margin-left: 4vh;
+  }
+
+  .faq-container {
+    display: none;
+    width: 95vh;
+  }
+
   .bottom-clouds-image-2 {
     width: 200vw;
     margin-left: 200vw;
+  }
+
+  .tabs-menu {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    grid-column-gap: 4vh;
+    grid-row-gap: 4vh;
+  }
+
+  .tabs-content {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .box-branches {
+    display: none;
+    width: 11.5vh;
+    margin-left: 1vh;
+  }
+
+  .faq-container-tablet {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 95vh;
+    background-image: url('../images/box-large-ipad.png');
+  }
+
+  .faq-container-phone {
+    display: none;
+    width: 95vh;
+    background-image: url('../images/box-large-ipad.png');
+  }
+
+  .tabs-container-phone {
+    margin-left: 4vh;
   }
 }
 
@@ -824,11 +911,47 @@ img {
   .bottom-clouds {
     width: 200vw;
   }
+
+  .tabs-container {
+    width: 90vw;
+    margin-left: 0vh;
+  }
+
+  .tabs-menu {
+    grid-column-gap: 1vh;
+    grid-row-gap: 1vh;
+  }
+
+  .tabs-content {
+    width: 75vh;
+  }
+
+  .faq-container-tablet {
+    width: 80vh;
+    height: 50vh;
+  }
+
+  .tabs-container-phone {
+    display: none;
+    margin-left: 0vh;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .central-island {
+    margin-right: 0vh;
+  }
+
+  .left-island {
+    margin-right: 0vh;
+  }
+
   .right-island {
-    margin-left: 7vw;
+    margin-left: 0vw;
+  }
+
+  .mid-clouds-image {
+    width: 180vw;
   }
 
   .bottom-clouds {
@@ -837,6 +960,126 @@ img {
 
   .bottom-clouds-image {
     width: 400vw;
+  }
+
+  .mid-clouds-image-2 {
+    width: 180vw;
+  }
+
+  .banyan-and-bracket {
+    margin-left: 12px;
+  }
+
+  .intro-text {
+    margin-right: 0vh;
+  }
+
+  .intro-button {
+    margin-right: 0vh;
+  }
+
+  .intro-button-text {
+    margin-right: 0vh;
+  }
+
+  .link-block {
+    width: 200px;
+    height: auto;
+    padding: 0vh;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    background-image: none;
+    text-align: left;
+  }
+
+  .tabs-container {
+    display: none;
+  }
+
+  .empty-space {
+    width: 400px;
+    height: 20px;
+  }
+
+  .left-arrow-down {
+    display: none;
+  }
+
+  .right-arrow-down {
+    display: none;
+  }
+
+  .island-container {
+    display: none;
+    width: 100vw;
+  }
+
+  .left-arrow-up {
+    display: none;
+  }
+
+  .questions-container {
+    width: auto;
+  }
+
+  .tabs-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    grid-column-gap: 0vh;
+    grid-row-gap: 0vh;
+  }
+
+  .tabs-content {
+    width: 250px;
+  }
+
+  .discord-link {
+    margin-right: -35vh;
+  }
+
+  .twitter-link {
+    margin-left: -35vh;
+  }
+
+  .back-top-button {
+    width: 20vh;
+  }
+
+  .back-link {
+    margin-top: 95.2vh;
+    margin-right: 0vh;
+  }
+
+  .faq-container-tablet {
+    display: none;
+  }
+
+  .faq-container-phone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 280px;
+    height: 440px;
+    background-image: url('../images/box-large-iphone.png');
+  }
+
+  .tabs-container-phone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 250px;
+    margin-left: 0vh;
   }
 }
 
