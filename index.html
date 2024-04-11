@@ -1,238 +1,186 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Aug 02 2022 16:35:40 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6216257fa1c03557d088e0b0" data-wf-site="6216257fa1c0354a3888e0af">
+<!DOCTYPE html><!--  Last Published: Tue Apr 09 2024 22:45:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="65f1a5e4d8a255af8eaea6c8" data-wf-site="65f1a5e4d8a255af8eaea6b1" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Wallet Garden — Your personal garden in the metaverse</title>
-  <meta content="Your assets, wallet history and quirks will be displayed, creating a visual representation of your ENS, NFT collection, or activity in Ethereum history, all fully carbon-negative!" name="description">
-  <meta content="Wallet Garden — Your personal garden in the metaverse" property="og:title">
-  <meta content="Your assets, wallet history and quirks will be displayed, creating a visual representation of your ENS, NFT collection, or activity in Ethereum history, all fully carbon-negative!" property="og:description">
-  <meta content="https://i.imgur.com/y4ZEZ3I.png" property="og:image">
-  <meta content="Wallet Garden — Your personal garden in the metaverse" property="twitter:title">
-  <meta content="Your assets, wallet history and quirks will be displayed, creating a visual representation of your ENS, NFT collection, or activity in Ethereum history, all fully carbon-negative!" property="twitter:description">
-  <meta content="https://i.imgur.com/y4ZEZ3I.png" property="twitter:image">
+  <title>wallet.garden — Showcase your crypto heritage!</title>
+  <meta content="Design your own floating garden displaying your wallet history, achievements, &amp; collectibles. Link it with your socials &amp; share it as your new identity on web3." name="description">
+  <meta content="wallet.garden — Showcase your crypto heritage!" property="og:title">
+  <meta content="Design your own floating garden displaying your wallet history, achievements, &amp; collectibles. Link it with your socials &amp; share it as your new identity on web3." property="og:description">
+  <meta content="https://i.imgur.com/2lEOvQF.png" property="og:image">
+  <meta content="wallet.garden — Showcase your crypto heritage!" property="twitter:title">
+  <meta content="Design your own floating garden displaying your wallet history, achievements, &amp; collectibles. Link it with your socials &amp; share it as your new identity on web3." property="twitter:description">
+  <meta content="https://i.imgur.com/2lEOvQF.png" property="twitter:image">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/eden-prototype.webflow.css" rel="stylesheet" type="text/css">
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <link href="css/wallet-garden-landing-page.webflow.css" rel="stylesheet" type="text/css">
+  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="5b1b1bb8-772d-e492-90af-db9b735bcbaf"] {-webkit-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4456b94f-8c9c-d87b-855e-dd3835a077c2"] {-webkit-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5e31a83f-45e5-5285-cdac-a8db03c03bfd"] {-webkit-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="5b1b1bb8-772d-e492-90af-db9b735bcbaf"] {-webkit-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4456b94f-8c9c-d87b-855e-dd3835a077c2"] {-webkit-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5e31a83f-45e5-5285-cdac-a8db03c03bfd"] {-webkit-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="5b1b1bb8-772d-e492-90af-db9b735bcbaf"] {-webkit-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1.2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4456b94f-8c9c-d87b-855e-dd3835a077c2"] {-webkit-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="5e31a83f-45e5-5285-cdac-a8db03c03bfd"] {-webkit-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}</style>
+  <script src="https://use.typekit.net/ttu0ywy.js" type="text/javascript"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+* {
+  -webkit-font-smoothing: antialiased;
+}
+</style>
 </head>
-<body>
-  <div class="clouds">
-    <div class="top-clouds"><img src="images/3.png" loading="lazy" data-w-id="02e2d635-ae63-c245-da39-3b5f262a2ac5" style="-webkit-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" alt="" class="image-8"></div>
-  </div>
-  <div data-w-id="238db478-a93a-a377-620b-4ffaada19a43" style="-webkit-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="mid-clouds"><img src="images/2.png" loading="lazy" alt="" class="mid-clouds-image"><img src="images/2.png" loading="lazy" alt="" class="mid-clouds-image-2"></div>
-  <div data-w-id="dd6e55b3-0494-97a8-1f23-5f52e0dc928b" style="-webkit-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="bottom-clouds"><img src="images/1.png" loading="lazy" sizes="100vw" srcset="images/1-p-500.png 500w, images/1-p-800.png 800w, images/1.png 1200w" alt="" class="bottom-clouds-image"><img src="images/1.png" loading="lazy" sizes="100vw" srcset="images/1-p-500.png 500w, images/1-p-800.png 800w, images/1.png 1200w" alt="" class="bottom-clouds-image-2"></div>
-  <div class="div-block-2"></div>
-  <div class="logo-top"><img src="images/LOGO_wallet_garden.png" loading="lazy" alt="" class="image-3">
-    <a data-w-id="b60d08b1-db90-287d-d66c-8d82e1d60619" href="http://discord.gg/yv8trsNXbJ" target="_blank" class="discord-link w-inline-block"><img src="images/discord-logo.png" loading="lazy" alt="" class="discord-logo"></a>
-    <a data-w-id="26bc1584-5b83-d0e2-6155-bec7f1559bb1" href="https://twitter.com/thecryptotrunks" target="_blank" class="twitter-link w-inline-block"><img src="images/twitter-logo.png" loading="lazy" alt="" class="discord-logo"></a>
-    <a data-w-id="ce878877-0db7-6d48-1777-4c564bdc8ecf" style="opacity:0" href="#" class="back-link w-inline-block"><img src="images/button-extended.png" loading="lazy" alt="" class="back-top-button"></a>
-  </div>
-  <div class="corners">
-    <div class="top-right"><img src="images/corner-top-right.png" loading="lazy" alt="" class="image-4"></div>
-    <div class="top-left"><img src="images/corner-top-left.png" loading="lazy" alt="" class="image-5"></div>
-    <div class="bottom-left"><img src="images/corner-bottom-left.png" loading="lazy" alt="" class="image-7"></div>
-    <div class="bottom-right"><img src="images/corner-bottom-right.png" loading="lazy" alt="" class="image-6"></div>
-  </div>
-  <div class="intro">
-    <div class="banyan-and-bracket"></div>
-    <div class="intro-text"><strong>wallet.garden is your personal garden in the </strong><span><strong class="another-stupid-m">m</strong></span><strong>etaverse.</strong><br><br>Each Ethereum user can freely generate a Wallet Garden, <span class="another-stupid-m">w</span>hich is a showcase of your Ethereum address in the metaverse.<br> <br><span class="text-span-2">Your assets, wallet history and quirks will be displayed, creating a visual representation of your ENS, NFT collection, or activity in Ethereum history, all fully carbon-negative!</span></div>
-    <a data-w-id="7ae986e8-22ce-1f95-73cd-970219dfa5c2" href="#" class="intro-button w-inline-block"></a>
-    <a data-w-id="654db7c2-9a9e-7403-5ad2-8e47c9fca928" href="#" class="intro-button-text">LEARN <span class="stupid-m">M</span>ORE</a>
-  </div>
-  <div style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="faq">
-    <div class="hidden">
-      <div><img src="images/box-top-left-margin.png" loading="lazy" width="126" alt="" class="_20vh"><img src="images/box-top-margin.png" loading="lazy" id="w-node-_2f41b1f4-ec73-cc75-6afb-2cc2dcfb2e7f-d088e0b0" alt="" class="_20vh"><img src="images/box-top-margin.png" loading="lazy" alt="" class="_20vh"><img src="images/box-top-margin.png" loading="lazy" alt="" class="_20vh"><img src="images/box-top-margin.png" loading="lazy" alt="" class="_20vh"><img src="images/box-top-right-margin.png" loading="lazy" width="126" alt="" class="_20vh"></div>
-      <div><img src="images/box-left-margin.png" loading="lazy" width="126" alt="" class="_20vh"><img src="images/box-middle-filler.png" loading="lazy" id="w-node-_4c6fc6f0-63bc-aff7-c16a-3b7e4fec7994-d088e0b0" alt="" class="_20vh"><img src="images/box-middle-filler.png" loading="lazy" alt="" class="_20vh"><img src="images/box-middle-filler.png" loading="lazy" alt="" class="_20vh"><img src="images/box-middle-filler.png" loading="lazy" alt="" class="_20vh"><img src="images/box-right-margin.png" loading="lazy" width="126" alt="" class="_20vh"></div>
-      <div><img src="images/box-bottom-left-margin.png" loading="lazy" width="126" alt="" class="_20vh"><img src="images/box-bottom-margin.png" loading="lazy" id="w-node-_39a4afd6-f5a5-da15-fc9b-517fca99714b-d088e0b0" alt="" class="_20vh"><img src="images/box-bottom-margin.png" loading="lazy" alt="" class="_20vh"><img src="images/box-bottom-margin.png" loading="lazy" alt="" class="_20vh"><img src="images/box-bottom-margin.png" loading="lazy" alt="" class="_20vh"><img src="images/box-bottom-right-margin.png" loading="lazy" width="126" alt="" class="_20vh"></div>
+<body class="body">
+  <div data-w-id="08c52862-2596-4f69-4c34-4160e0b9a257" class="opening_cover"></div>
+  <div class="app">
+    <div class="clouds">
+      <div class="top-clouds"><img src="images/3.png" loading="eager" alt="" class="image-8"></div>
     </div>
-    <div class="faq-container-phone"></div>
-    <div class="faq-container-tablet"></div>
-    <div class="faq-container"></div>
-    <div class="tabs-container">
-      <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="w-tabs">
-        <div class="tabs-menu w-tab-menu">
-          <a data-w-tab="Tab 1" data-w-id="2aeec8ef-c071-c3a6-74dd-c471b0663ac3" class="tab-link-tab-1 w-inline-block w-tab-link w--current"><img style="display:block" data-w-id="dd4dcae1-d578-0fb8-0ccb-51ca364b5666" src="images/branches-box.png" loading="lazy" alt="" class="box-branches">
-            <div class="link-block">
-              <div>What &amp; Why</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 2" data-w-id="2aeec8ef-c071-c3a6-74dd-c471b0663ac6" class="tab-link-tab-2 w-inline-block w-tab-link"><img data-w-id="c15b45c5-de8a-dbf4-2406-6eba0b0d574b" loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Features</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 3" data-w-id="2aeec8ef-c071-c3a6-74dd-c471b0663ac9" class="tab-link-tab-3 w-inline-block w-tab-link"><img data-w-id="ba4e42d5-344f-3445-1cd4-6c991ea7c817" loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Art, Projects &amp; Collabs</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 4" data-w-id="e511b640-fb9a-5b3a-95c2-7b42b28e6242" class="tab-link-tab-4 w-inline-block w-tab-link"><img data-w-id="0e239f70-b72b-e914-d8d1-89dd4eb08002" loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Carbon Offsetting</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 5" data-w-id="784910cc-d3b3-77a1-9571-9613eec863d1" class="tab-link-tab-5 w-inline-block w-tab-link"><img data-w-id="c6f4606d-9360-aa4b-f6ea-247ccb2792eb" loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Beta <br>&amp; Launch</div>
-            </div>
-          </a>
+    <div class="mid-clouds"><img src="images/2.png" loading="eager" alt="" class="mid-clouds-image"><img src="images/2.png" loading="eager" alt="" class="mid-clouds-image-2"></div>
+    <div class="bottom-clouds"><img src="images/1.png" loading="eager" srcset="images/1-p-500.png 500w, images/1-p-800.png 800w, images/1.png 1200w" sizes="100vw" alt="" class="bottom-clouds-image"><img src="images/1.png" loading="eager" srcset="images/1-p-500.png 500w, images/1-p-800.png 800w, images/1.png 1200w" sizes="100vw" alt="" class="bottom-clouds-image-2"></div>
+    <div class="gradient"></div>
+    <div class="logo-top"><img src="images/LOGO_wallet_garden.png" loading="eager" alt="" class="image-3">
+      <a data-w-id="d77059d4-0023-c4c1-2769-c24455b41a21" href="http://discord.gg/yv8trsNXbJ" target="_blank" class="discord-link w-inline-block"><img src="images/discord-logo.png" loading="lazy" alt="" class="discord-logo"></a>
+      <a data-w-id="d77059d4-0023-c4c1-2769-c24455b41a23" href="https://twitter.com/thecryptotrunks" target="_blank" class="twitter-link w-inline-block"><img src="images/twitter-logo.png" loading="lazy" alt="" class="discord-logo"></a>
+      <a data-w-id="d77059d4-0023-c4c1-2769-c24455b41a25" href="#" class="back-link w-inline-block"><img src="images/button-extended.png" loading="lazy" alt="" class="back-top-button"></a>
+    </div>
+    <a data-w-id="aac2c063-79a2-dca4-7518-842f7113b40f" href="#" class="arrow_right w-inline-block"><img src="images/arrow-right.png" loading="lazy" alt=""></a>
+    <div class="corners">
+      <div class="top-right"><img src="images/Top_Right_Deep-Forest_Leafy-export.gif" loading="eager" alt="" class="image-4"></div>
+      <div class="top-left"><img src="images/Top_Left_Deep_Forest_Leafy-export.gif" loading="eager" alt="" class="image-5"></div>
+      <div class="bottom-left"><img src="images/Down_Left_Deep_Forest_Leafy-export.gif" loading="eager" alt="" class="image-7"></div>
+      <div class="bottom-right"><img src="images/Down_Right_Deep_Forest_Leafy-export.gif" loading="eager" alt="" class="image-6"></div>
+    </div>
+    <div class="intro">
+      <div class="banyan-and-bracket"></div>
+      <div class="intro-text"><strong>wallet.garden is a tranquil garden tailored to your wallet history, NFTs, and assets.</strong><br><br>An evolution of our CryptoTrunks project, we&#x27;re now building your future web3 homepage.<br> <br>We&#x27;re currently in the middle of working on our closed beta for the wallet.garden web app. If you&#x27;d like to be notified of future beta invites and / or news about the project, sign up with your email below!</div>
+      <div class="form-block w-form">
+        <form id="wf-form-w.g-Email-Sign-up-Form" name="wf-form-w.g-Email-Sign-up-Form" data-name="w g Email Sign-up Form" action="https://garden.us22.list-manage.com/subscribe/post?u=127336556bfda24d9dd2533e9&amp;amp;id=6496d0cd04&amp;amp;f_id=00d4c6e1f0" method="post" data-wf-page-id="65f1a5e4d8a255af8eaea6c8" data-wf-element-id="2a611367-b95f-5014-11ce-b3f20eaf6f62"><input class="text-field w-input" maxlength="256" name="EMAIL" data-name="EMAIL" placeholder="Your Email" type="email" id="EMAIL-2" required=""><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Sign Up"></form>
+        <div class="success-message w-form-done">
+          <div class="text-block">Thank you!<br>You&#x27;re now signed up!</div>
         </div>
-        <div class="tabs-content w-tab-content">
-          <div data-w-tab="Tab 1" class="tab-pane-tab-1 w-tab-pane w--tab-active">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">How does Wallet Garden work?<br><br></strong>Wallet Garden is a completely new, free way to display and visualize your NFTs, assets, wallet history, and participation in the crypto space.<strong class="questions-headline"><br>‍<br></strong>Centered around your central tree trunk (in itself an NFT), which dynamically grows according to your gas usage, you’ll be able to seed &amp; create new floating islands depicting your favorite NFTs from the biggest projects, such as CryptoPunks, Bored Apes, Mooncats. More collections will be added every other week, including limited-editions by your favorite NFT artists.<br><br>You&#x27;ll also get your own private link (e.g. wallet.garden/path.eth) to show your friends, and connect it with other links to your favourite hangouts (Twitter, Discord, websites, etc)!</div>
-              <div class="answer-block"><strong class="questions-headline">Why are you building this?<br><br></strong>Currently, there is no simple way to showcase your full crypto presence and identity. Trying to explain how long you&#x27;ve been in the space is tiresome (Etherscan history), your NFT collection (OpenSea profile, doesn&#x27;t have featured function), or your participation in the space (rugged on IDOs? over 10.000 transactions?).<br><br>We want to build something that solves that issue, makes it user-friendly, and through its features (fully carbon-negative, diverse team, etc) will be appealing to non-crypto natives as well! <br><br>With it being free to mint, your crypto-newbie friends will also be able to start their adventure in the space without feeling guilty about it.</div>
-              <div class="answer-block"><strong class="questions-headline">How do I interact with Wallet Garden?<br><br></strong>You’ll be able to interact through a web app we’ll be building, in which you’ll be able to control all the interesting features that Eden brings. Actions you take in the web app will dynamically update your Garden NFT.</div>
-              <div class="answer-block"><strong class="questions-headline">What will Wallet Garden be built on?<br><br></strong>Due to the interactive nature of the project and the high amount of gas transactions that it’ll incur, we’ll be building it on an L2 solution instead of Ethereum.</div>
-            </div>
-          </div>
-          <div data-w-tab="Tab 2" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">What are some of the key features of Wallet Garden?<br><br></strong>• Your central trunk gets bigger according to how much gas you&#x27;ve spent (so, how much you&#x27;ve participated in the space).<br>• You get badges for key stats (e.g. 1.000 transactions made, 3-year old wallet, holds 5 ETH, etc) and participation in certain events (e.g. ETH launch, staked ETH, held during Byzantium fork).<br>• You can roll for random traits as many times as you want (e.g. looking for a Weeping Willow trunk with frozen island and a dog? Just keep rolling (it&#x27;s free!) until you hit it, then mint once you do!)<br>• Passively offset carbon just by holding a garden! You&#x27;ll have a small counter at the bottom of your screen that slowly goes up, and every milestone you hit, we&#x27;ll donate to conservation projects in your name!<br>• Play various mini-games (e.g. fishing!) with your custom characters, interact with other wallets, and more to come!<br>• Link your socials or other websites to your garden, so you can use it as a homepage for your crypto identity!</div>
-              <div class="answer-block"><strong class="questions-headline">How do CryptoTrunks work within Eden?<br><br></strong>If you own one or more CryptoTrunks in your wallet, you’ll be able to copy your traits into your new Wallet Garden trunk, so you can have a 1:1 representation of your original NFT!<br><br>This way, CryptoTrunk generative elements and Genesis traits will be completely unique to CryptoTrunk holders, and will be unobtainable in new, fresh Wallet Garden trunks — those will have a completely new set of elements and traits.<br><br>If you hold multiple CryptoTrunks, you’ll be able to swap between them, and the rest will show up as a forest behind your main one!</div>
-            </div>
-          </div>
-          <div data-w-tab="Tab 3" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">How does Wallet Garden look like?<br><br></strong>Very similar to this website! Click on &#x27;See Examples&#x27; button below to go through a few models of a future garden. We&#x27;ll be building an entire UI around it together with our beta launch, so it&#x27;ll become even more customizable.<strong class="questions-headline"><br><br>‍</strong>We’ve released a few sneak-peeks of Wallet Garden over on our Twitter account, and we’ll be posting regular art updates as we go along, so be sure to check our feed!<br></div>
-              <div class="answer-block"><strong class="questions-headline">Which NFT projects will you feature?<br><br></strong>We’ve taken a look at what are the most popular NFT projects our v1 CryptoTrunks users hold, and have started with 12 of them, including BAYC, Art Blocks, ENS, Mooncats, Pudgy Penguins, and more!<br><br>Over time, we&#x27;ll want to include at least 50+ collections, and we&#x27;ll be releasing new ones every two weeks to keep up with new trending projects.</div>
-              <div class="answer-block"><strong class="questions-headline">Which artists are you going to collab with?<br><br></strong>We&#x27;ve currently got a talented team of three pixel-artists which we love dearly, but we&#x27;re going to be expanding that to other prominent artists within the space. We haven&#x27;t confirmed any collabs just yet, but keep an eye on our Twitter for future reveals!<br><br>Note that proceeds from any artist collabs will go directly to the artists themselves!</div>
-            </div>
-          </div>
-          <div data-w-tab="Tab 4" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong>Is Eden carbon-negative?<br>‍</strong><br>Absolutely! We will continue to partner with <a href="https://offsetra.com/" target="_blank" class="text-link">Offsetra</a> (&amp; potentially others) in order to offset all our mints and operating footprints by donating and supporting reforestation projects in Central America, the Amazon, and more.<br><br>In addition, we’ll offer you the option to directly offset your own emissions or donate through Project Eden, with 100% of the proceeds going to Offsetra, which will earn you special badges within the metaverse!</div>
-            </div>
-          </div>
-          <div data-w-tab="Tab 5" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">When is beta launching?<br><br></strong>We’re hard at work at developing it, and we’ll let you know about exact dates once we get closer to launch. We aim to get a beta-build out before the full release, so you’ll be able to see it progress in real-time!</div>
-              <div class="answer-block"><strong class="questions-headline">Are you going to launch with full features?<br><br></strong>We&#x27;re big believers in listening to user feedback, so we&#x27;ll be gradually introducing new features and then improving them before moving on to the next shiny thing!<br><br>Features that we&#x27;re planning to launch with: CryptoTrunk-to-Wallet-Garden conversions, infinitely rolling new Garden trunks, passively offsetting CO2, and linking your socials and websites to your Garden.</div>
-            </div>
-          </div>
+        <div data-w-id="2a611367-b95f-5014-11ce-b3f20eaf6f6d" class="error-message w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
         </div>
       </div>
     </div>
-    <div class="tabs-container-phone">
-      <div data-current="Tab 1" data-easing="ease" data-duration-in="300" data-duration-out="100" class="w-tabs">
-        <div class="tabs-menu w-tab-menu">
-          <a data-w-tab="Tab 1" data-w-id="b5df59a6-e95e-1f07-7779-7e8f6d31eafc" class="tab-link-tab-1 w-inline-block w-tab-link w--current"><img loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>What &amp; Why</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 2" data-w-id="b5df59a6-e95e-1f07-7779-7e8f6d31eb01" class="tab-link-tab-2 w-inline-block w-tab-link"><img loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Features</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 3" data-w-id="b5df59a6-e95e-1f07-7779-7e8f6d31eb06" class="tab-link-tab-3 w-inline-block w-tab-link"><img loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Art, Projects &amp; Collabs</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 4" data-w-id="b5df59a6-e95e-1f07-7779-7e8f6d31eb0b" class="tab-link-tab-4 w-inline-block w-tab-link"><img loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Carbon Offsetting</div>
-            </div>
-          </a>
-          <a data-w-tab="Tab 5" data-w-id="b5df59a6-e95e-1f07-7779-7e8f6d31eb10" class="tab-link-tab-5 w-inline-block w-tab-link"><img loading="lazy" src="images/branches-box.png" alt="" class="box-branches">
-            <div class="link-block">
-              <div>Beta &amp; Launch</div>
-            </div>
-          </a>
+  </div>
+  <div class="landing_page">
+    <div class="fixed_socials_container">
+      <a href="https://twitter.com/thecryptotrunks" target="_blank" class="button_twitter fixed w-button"></a>
+      <a href="http://discord.gg/yv8trsNXbJ" target="_blank" class="button_discord fixed w-button"></a>
+    </div>
+    <a data-w-id="0be28f18-ad6c-4f08-0cfa-5f6ee7bfa71f" href="#" class="fixed_button_open_app w-button">Open App</a>
+    <header id="home" class="header">
+      <div class="animated_bits"><img src="images/bird_large.png" loading="eager" data-w-id="85c6b3a1-6108-309d-df92-d1010a750c99" alt="" class="bird_large"><img src="images/bird_small.png" loading="eager" alt="" class="bird_small"><img src="images/island_large.png" loading="eager" data-w-id="5b1b1bb8-772d-e492-90af-db9b735bcbaf" alt="" class="island_large"><img src="images/island_medium.png" loading="eager" data-w-id="4456b94f-8c9c-d87b-855e-dd3835a077c2" alt="" class="island_medium"><img src="images/island_small.png" loading="eager" data-w-id="5e31a83f-45e5-5285-cdac-a8db03c03bfd" alt="" class="island_small"></div>
+      <div class="headerbox">
+        <h3 class="dark-green">wallet.garden</h3>
+        <h1 class="navy">Showcase your crypto heritage</h1>
+        <p class="paragraph">Design your own floating garden displaying your wallet history, achievements, collectibles, and assets. Link it with your socials and share it as your new summarized identity on web3.</p>
+        <div class="header_button_container">
+          <a data-w-id="1c1faafe-26bb-3940-338f-ef5ee60011de" href="#" class="button_open_app w-button">Open App</a>
+          <a href="#islands" class="button_learn_more w-button">Learn more</a>
         </div>
-        <div class="tabs-content w-tab-content">
-          <div data-w-tab="Tab 1" class="tab-pane-tab-1 w-tab-pane w--tab-active">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">How does Wallet Garden work?<br><br></strong>Wallet Garden is a completely new, free way to display and visualize your NFTs, assets, wallet history, and participation in the crypto space.<strong class="questions-headline"><br>‍<br></strong>Centered around your central tree trunk (in itself an NFT), which dynamically grows according to your gas usage, you’ll be able to seed &amp; create new floating islands depicting your favorite NFTs from the biggest projects, such as CryptoPunks, Bored Apes, Mooncats. More collections will be added every other week, including limited-editions by your favorite NFT artists.<br><br>You&#x27;ll also get your own private link (e.g. wallet.garden/path.eth) to show your friends, and connect it with other links to your favourite hangouts (Twitter, Discord, websites, etc)!</div>
-              <div class="answer-block"><strong class="questions-headline">Why are you building this?<br><br></strong>Currently, there is no simple way to showcase your full crypto presence and identity. Trying to explain how long you&#x27;ve been in the space is tiresome (Etherscan history), your NFT collection (OpenSea profile, doesn&#x27;t have featured function), or your participation in the space (rugged on IDOs? over 10.000 transactions?).<br><br>We want to build something that solves that issue, makes it user-friendly, and through its features (fully carbon-negative, diverse team, etc) will be appealing to non-crypto natives as well! <br><br>With it being free to mint, your crypto-newbie friends will also be able to start their adventure in the space without feeling guilty about it.</div>
-              <div class="answer-block"><strong class="questions-headline">How do I interact with Wallet Garden?<br><br></strong>You’ll be able to interact through a web app we’ll be building, in which you’ll be able to control all the interesting features that Eden brings. Actions you take in the web app will dynamically update your Garden NFT.</div>
-              <div class="answer-block"><strong class="questions-headline">What will Wallet Garden be built on?<br><br></strong>Due to the interactive nature of the project and the high amount of gas transactions that it’ll incur, we’ll be building it on an L2 solution instead of Ethereum.</div>
-            </div>
+      </div>
+    </header>
+    <section id="islands" class="first_section">
+      <div class="section_content_container">
+        <div class="textbox">
+          <h3 class="blue">Islands</h3>
+          <h2 class="white">Every island <br>tells a story</h2>
+          <p class="section_paragraph blue_white">Within your garden, each island represents an asset from your collection, drawn in intricate pixel art. <br><br>Together they form a narrative of what you&#x27;ve gathered over the years, giving life to your unique taste and style.</p>
+          <div class="projects_block">
+            <p class="project_name brown">Bored Apes</p>
+            <p class="project_name cyan">CryptoKitties</p>
+            <p class="project_name pink">Pudgy Penguins</p>
+            <p class="project_name blue">ENS</p>
+            <p class="project_name green">Rarible</p>
+            <p class="project_name red">Foundation</p>
+            <p class="project_name violet">Rarible</p>
+            <p class="project_name blue">&amp; many more</p>
           </div>
-          <div data-w-tab="Tab 2" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">What are some of the key features of Wallet Garden?<br><br></strong>• Your central trunk gets bigger according to how much gas you&#x27;ve spent (so, how much you&#x27;ve participated in the space).<br>• You get badges for key stats (e.g. 1.000 transactions made, 3-year old wallet, holds 5 ETH, etc) and participation in certain events (e.g. ETH launch, staked ETH, held during Byzantium fork).<br>• You can roll for random traits as many times as you want (e.g. looking for a Weeping Willow trunk with frozen island and a dog? Just keep rolling (it&#x27;s free!) until you hit it, then mint once you do!)<br>• Passively offset carbon just by holding a garden! You&#x27;ll have a small counter at the bottom of your screen that slowly goes up, and every milestone you hit, we&#x27;ll donate to conservation projects in your name!<br>• Play various mini-games (e.g. fishing!) with your custom characters, interact with other wallets, and more to come!<br>• Link your socials or other websites to your garden, so you can use it as a homepage for your crypto identity!</div>
-              <div class="answer-block"><strong class="questions-headline">How do CryptoTrunks work within Eden?<br><br></strong>If you own one or more CryptoTrunks in your wallet, you’ll be able to copy your traits into your new Wallet Garden trunk, so you can have a 1:1 representation of your original NFT!<br><br>This way, CryptoTrunk generative elements and Genesis traits will be completely unique to CryptoTrunk holders, and will be unobtainable in new, fresh Wallet Garden trunks — those will have a completely new set of elements and traits.<br><br>If you hold multiple CryptoTrunks, you’ll be able to swap between them, and the rest will show up as a forest behind your main one!</div>
-            </div>
+        </div><img src="images/illustration_first_empty.png" loading="eager" sizes="(max-width: 479px) 100vw, 50vw" srcset="images/illustration_first_empty-p-500.png 500w, images/illustration_first_empty-p-800.png 800w, images/illustration_first_empty-p-1080.png 1080w, images/illustration_first_empty-p-1600.png 1600w, images/illustration_first_empty-p-2000.png 2000w, images/illustration_first_empty.png 2103w" alt="" class="first_illustration"><img class="first_illustration_island_1" src="images/island_group_1.png" alt="" style="opacity:1;-webkit-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 50vw, (max-width: 767px) 23vw, (max-width: 991px) 22vw, 23vw" data-w-id="b68c0c08-dd2f-f6ec-bc99-e73c7fcaebe2" loading="eager" srcset="images/island_group_1-p-500.png 500w, images/island_group_1-p-800.png 800w, images/island_group_1.png 957w"><img class="first_illustration_island_2" src="images/island_group_2.png" alt="" style="opacity:0;-webkit-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 50vw, (max-width: 767px) 23vw, (max-width: 991px) 22vw, 23vw" data-w-id="010abda8-239e-abf0-b8db-5e986842ca32" loading="eager" srcset="images/island_group_2-p-500.png 500w, images/island_group_2-p-800.png 800w, images/island_group_2.png 957w"><img class="first_illustration_island_3" src="images/island_group_3.png" alt="" style="opacity:0;-webkit-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 50vw, (max-width: 767px) 23vw, (max-width: 991px) 22vw, 23vw" data-w-id="97b543cd-9245-7ce3-0cac-bb3d5be3c828" loading="eager" srcset="images/island_group_3-p-500.png 500w, images/island_group_3-p-800.png 800w, images/island_group_3.png 957w">
+      </div>
+    </section>
+    <section id="progression" class="second_section">
+      <div class="first_divider"></div>
+      <div class="section_content_container">
+        <div class="textbox">
+          <h3 class="new_h3 navy">Progression</h3>
+          <h2 class="white">Your main island grows dynamically with your wallet</h2>
+          <p class="section_paragraph blue_white">As you operate more within the crypto ecosystem, your gas costs naturally go up—and to simulate that, the tree on your main island grows accordingly in five tiers, eager to absorb the CO2 you&#x27;ve produced.</p>
+          <div class="tier_block">
+            <p class="blue_white opacity_50">Tier 01<br>Tier 02 <br>Tier 03<br>Tier 04<br>Tier 05</p>
+            <p class="blue_white opacity_50">— Sapling<br>— Young<br>— Adult<br>— Elder<br>— Ancient</p>
           </div>
-          <div data-w-tab="Tab 3" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">How does Wallet Garden look like?<br><br></strong>Very similar to this website! Click on &#x27;See Examples&#x27; button below to go through a few models of a future garden. We&#x27;ll be building an entire UI around it together with our beta launch, so it&#x27;ll become even more customizable.<strong class="questions-headline"><br><br>‍</strong>We’ve released a few sneak-peeks of Wallet Garden over on our Twitter account, and we’ll be posting regular art updates as we go along, so be sure to check our feed!<br></div>
-              <div class="answer-block"><strong class="questions-headline">Which NFT projects will you feature?<br><br></strong>We’ve taken a look at what are the most popular NFT projects our v1 CryptoTrunks users hold, and have started with 12 of them, including BAYC, Art Blocks, ENS, Mooncats, Pudgy Penguins, and more!<br><br>Over time, we&#x27;ll want to include at least 50+ collections, and we&#x27;ll be releasing new ones every two weeks to keep up with new trending projects.</div>
-              <div class="answer-block"><strong class="questions-headline">Which artists are you going to collab with?<br><br></strong>We&#x27;ve currently got a talented team of three pixel-artists which we love dearly, but we&#x27;re going to be expanding that to other prominent artists within the space. We haven&#x27;t confirmed any collabs just yet, but keep an eye on our Twitter for future reveals!<br><br>Note that proceeds from any artist collabs will go directly to the artists themselves!</div>
-            </div>
+        </div><img src="images/illustration-second.png" loading="eager" sizes="(max-width: 479px) 100vw, 50vw" srcset="images/illustration-second-p-500.png 500w, images/illustration-second-p-800.png 800w, images/illustration-second-p-1080.png 1080w, images/illustration-second-p-1600.png 1600w, images/illustration-second-p-2000.png 2000w, images/illustration-second.png 2154w" alt="" class="second_illustration">
+      </div>
+      <div class="second_divider"></div>
+    </section>
+    <section id="customization" class="third_section">
+      <div class="section_content_container third">
+        <div class="textbox">
+          <h3 class="new_h3 navy">Customization</h3>
+          <h2 class="green">Large collections display your NFT’s custom traits</h2>
+          <p class="section_paragraph navy">Assets from more well-known collections will have a special set of islands associated with them, where several types of traits—such as colour, hair, hats. and more—unique to your specific asset will have accurate pixel representations.</p>
+        </div><img class="third_illustration_ape" src="images/illustration_third_ape.png" alt="" style="opacity:1;-webkit-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="7513733c-641a-360e-1885-a0e67fec0d4c" loading="eager" srcset="images/illustration_third_ape-p-500.png 500w, images/illustration_third_ape-p-800.png 800w, images/illustration_third_ape-p-1080.png 1080w, images/illustration_third_ape-p-1600.png 1600w, images/illustration_third_ape.png 1995w"><img class="third_illustration_punk" src="images/illustration_third_punk.png" alt="" style="opacity:0;-webkit-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="bb119458-e749-6773-1da5-e7fbb6648800" loading="eager" srcset="images/illustration_third_punk-p-500.png 500w, images/illustration_third_punk-p-800.png 800w, images/illustration_third_punk-p-1080.png 1080w, images/illustration_third_punk-p-1600.png 1600w, images/illustration_third_punk.png 1995w"><img class="third_illustration_mooncat" src="images/illustration_third_mooncat.png" alt="" style="opacity:0;-webkit-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -2vw, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="82896ca5-0b1f-d55c-066f-5636f70627af" loading="eager" srcset="images/illustration_third_mooncat-p-500.png 500w, images/illustration_third_mooncat-p-800.png 800w, images/illustration_third_mooncat-p-1080.png 1080w, images/illustration_third_mooncat-p-1600.png 1600w, images/illustration_third_mooncat.png 1995w">
+      </div>
+      <div class="third_divider"></div>
+    </section>
+    <section id="about-us" class="fourth_section">
+      <div class="section_content_container">
+        <div class="textbox">
+          <h3 class="new_h3 blue">About Us</h3>
+          <h2 class="white">A team of creators and gardeners</h2>
+          <p class="section_paragraph blue_white"><strong>studio root</strong> is a collective of over ten developers, designers, and creators from across seven time zones.</p>
+          <div class="tier_block">
+            <p class="blue_white opacity_50 bold"><strong>Head of Studio<br>Tech Lead<br>Design Lead<br>Artists<br><br>Devs<br><br>Community</strong><br></p>
+            <p class="blue_white opacity_50">‎‎‏‏‎ ‎—  <a href="https://twitter.com/cryptopathic" target="_blank" class="link_bit">@cryptopathic</a><br>‏‏‎ ‎—  <a href="https://twitter.com/jameslnicholson" target="_blank" class="link_bit">@jameslnicholson</a><br>‏‏‎ ‎—  @<a href="https://www.discord.gg/yv8trsNXbJ" target="_blank" class="link_bit">reuben.wg</a><br>‏‏‎ ‎—  <a href="https://twitter.com/arthur_vista" target="_blank" class="link_bit">@arthur_vista</a> <br>‏‏‎ ‎—  <a href="https://twitter.com/fomziepixels" target="_blank" class="link_bit">@fomziepixels</a><br>‏‏‎ —  @<a href="https://twitter.com/0xChaosBi" target="_blank" class="link_bit">0xChaosBi</a><br>‎ ‎—‎ ‎‎ ‎<a href="https://twitter.com/0xChaosBi" target="_blank" class="link_bit">@otherdevs?</a><br>‎ ‎—  <a href="https://twitter.com/zedbriel" target="_blank" class="link_bit">@zedbriel<br></a>
+            </p>
           </div>
-          <div data-w-tab="Tab 4" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong>Is Eden carbon-negative?<br>‍</strong><br>Absolutely! We will continue to partner with <a href="https://offsetra.com/" target="_blank" class="text-link">Offsetra</a> (&amp; potentially others) in order to offset all our mints and operating footprints by donating and supporting reforestation projects in Central America, the Amazon, and more.<br><br>In addition, we’ll offer you the option to directly offset your own emissions or donate through Project Eden, with 100% of the proceeds going to Offsetra, which will earn you special badges within the metaverse!</div>
-            </div>
-          </div>
-          <div data-w-tab="Tab 5" class="w-tab-pane">
-            <div class="questions-container">
-              <div class="answer-block"><strong class="questions-headline">When is beta launching?<br><br></strong>We’re hard at work at developing it, and we’ll let you know about exact dates once we get closer to launch. We aim to get a beta-build out before the full release, so you’ll be able to see it progress in real-time!</div>
-              <div class="answer-block"><strong class="questions-headline">Are you going to launch with full features?<br><br></strong>We&#x27;re big believers in listening to user feedback, so we&#x27;ll be gradually introducing new features and then improving them before moving on to the next shiny thing!<br><br>Features that we&#x27;re planning to launch with: CryptoTrunk-to-Wallet-Garden conversions, infinitely rolling new Garden trunks, passively offsetting CO2, and linking your socials and websites to your Garden.</div>
-            </div>
+        </div><img src="images/illustration-fourth.png" loading="eager" sizes="(max-width: 479px) 100vw, 50vw" srcset="images/illustration-fourth-p-500.png 500w, images/illustration-fourth-p-800.png 800w, images/illustration-fourth-p-1080.png 1080w, images/illustration-fourth.png 1390w" alt="" class="fourth_illustration">
+      </div>
+      <div class="fifth_divider"></div>
+    </section>
+    <section id="achievement-system" class="fifth_section">
+      <div class="section_content_container badges">
+        <div class="textbox">
+          <h3 class="new_h3 green">Achievement System</h3>
+          <h2 class="white">Earn badges and achievements</h2>
+          <p class="section_paragraph red_white">Your personal wallet has a series of unique traits and quirks attached to its transaction and interaction history.<br><br>Some of these you’ll be able to highlight on your profile, as well as earn you achievement points based on their depth and diversity!</p>
+        </div><img class="fifth_illustration_1" src="images/illustration_fifth_1.png" alt="" style="opacity:1" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="e006ca3d-0b8c-92d2-befe-23e4a91a3be4" loading="eager" srcset="images/illustration_fifth_1-p-500.png 500w, images/illustration_fifth_1-p-800.png 800w, images/illustration_fifth_1.png 1507w"><img class="fifth_illustration_2" src="images/illustration_fifth_2.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="35fc55f7-bab1-cdc4-96e3-624db168bc72" loading="eager" srcset="images/illustration_fifth_2-p-500.png 500w, images/illustration_fifth_2-p-800.png 800w, images/illustration_fifth_2.png 1507w"><img class="fifth_illustration_3" src="images/illustration_fifth_3.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="0291ea16-29a2-177c-b52c-0792c82c2b1e" loading="eager" srcset="images/illustration_fifth_3-p-500.png 500w, images/illustration_fifth_3-p-800.png 800w, images/illustration_fifth_3.png 1507w"><img class="fifth_illustration_4" src="images/illustration_fifth_4.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="2ee2f678-fdf1-1514-7397-96ea47fd7fcb" loading="eager" srcset="images/illustration_fifth_4-p-500.png 500w, images/illustration_fifth_4-p-800.png 800w, images/illustration_fifth_4.png 1507w"><img class="fifth_illustration_5" src="images/illustration_fifth_5.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="da93157e-7a28-25f4-6503-bae09eeb5563" loading="eager" srcset="images/illustration_fifth_5-p-500.png 500w, images/illustration_fifth_5-p-800.png 800w, images/illustration_fifth_5.png 1506w"><img class="fifth_illustration_6" src="images/illustration_fifth_6.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="688680d5-d9ad-ac0e-0e00-5d1390ff2470" loading="eager" srcset="images/illustration_fifth_6-p-500.png 500w, images/illustration_fifth_6-p-800.png 800w, images/illustration_fifth_6.png 1506w"><img class="fifth_illustration_7" src="images/illustration_fifth_7.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="395e0c93-7d9e-6d05-0c21-1dd8f24f1967" loading="eager" srcset="images/illustration_fifth_7-p-500.png 500w, images/illustration_fifth_7-p-800.png 800w, images/illustration_fifth_7.png 1506w"><img class="fifth_illustration_8" src="images/illustration_fifth_8.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="7d4163a9-499c-cdcb-01b8-c9330b2c4262" loading="eager" srcset="images/illustration_fifth_8-p-500.png 500w, images/illustration_fifth_8-p-800.png 800w, images/illustration_fifth_8.png 1506w"><img class="fifth_illustration_9" src="images/illustration_fifth_9.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="e74a55d7-8963-834c-ee17-06cf678676f5" loading="eager" srcset="images/illustration_fifth_9-p-500.png 500w, images/illustration_fifth_9-p-800.png 800w, images/illustration_fifth_9-p-1080.png 1080w, images/illustration_fifth_9.png 1506w"><img class="fifth_illustration_10" src="images/illustration_fifth_10.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="80605915-413b-da0a-d262-ed151a15537b" loading="eager" srcset="images/illustration_fifth_10-p-500.png 500w, images/illustration_fifth_10-p-800.png 800w, images/illustration_fifth_10.png 1506w"><img class="fifth_illustration_11" src="images/illustration_fifth_11.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="50bda10f-c73c-f38f-1639-9ec30cbd2a8e" loading="eager" srcset="images/illustration_fifth_11-p-500.png 500w, images/illustration_fifth_11-p-800.png 800w, images/illustration_fifth_11.png 1506w"><img class="fifth_illustration_12" src="images/illustration_fifth_12.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="ed35e61e-4a1e-f4be-a0ea-5dde08924016" loading="eager" srcset="images/illustration_fifth_12-p-500.png 500w, images/illustration_fifth_12-p-800.png 800w, images/illustration_fifth_12.png 1507w"><img class="fifth_illustration_13" src="images/illustration_fifth_13.png" alt="" style="opacity:0" sizes="(max-width: 479px) 100vw, 50vw" data-w-id="7fa85b2a-31ca-12f1-982c-4cd7ac6e3c20" loading="eager" srcset="images/illustration_fifth_13-p-500.png 500w, images/illustration_fifth_13-p-800.png 800w, images/illustration_fifth_13.png 1507w">
+      </div>
+      <div class="sixth_divider"></div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="section_content_container footer">
+        <div class="textbox footer">
+          <p class="section_paragraph blue_white right_align"><strong>wallet.garden</strong> is a project <br>lovingly built by <strong>studio root</strong> <br>a collective of developers, designers, and creators from <br>across seven time zones.<br><br><span class="copyright">© 2024 studio root. All rights reserved.</span></p>
+        </div>
+        <div class="textbox footer_menu">
+          <p class="section_paragraph blue_white"><strong>General</strong></p>
+          <a href="#home" class="footer_link">Home</a>
+          <a href="#islands" class="footer_link">Islands</a>
+          <a href="#progression" class="footer_link">Progression</a>
+          <a href="#customization" class="footer_link">Customisation</a>
+          <a href="#achievement-system" class="footer_link">Achievements</a>
+        </div>
+        <div class="textbox footer_menu">
+          <p class="section_paragraph blue_white"><strong>Resources</strong></p>
+          <a href="#" class="footer_link none">Partnerships</a>
+          <a href="#" class="footer_link none">Media Kit</a>
+          <a href="#" class="footer_link none">Brand Guide</a>
+        </div>
+        <div class="textbox footer_menu socials">
+          <p class="section_paragraph blue_white"><strong>Socials</strong></p>
+          <div class="footer_socials_container">
+            <a href="https://twitter.com/thecryptotrunks" target="_blank" class="button_twitter w-button"></a>
+            <a href="http://discord.gg/yv8trsNXbJ" target="_blank" class="button_discord w-button"></a>
           </div>
         </div>
       </div>
-    </div>
-    <a data-w-id="76ece764-2a0b-366b-d60d-a2e14d375510" href="#" class="faq-button w-inline-block"></a>
-    <a data-w-id="e74c60a8-d2cb-8ac3-0eea-73584b11d15e" href="#" class="faq-button-text">SEE EXAM<span class="stupid-m">P</span>LES</a>
+      <div class="footer_image"></div>
+    </footer>
   </div>
-  <div style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="island-container">
-    <div class="islands">
-      <div class="arrows-top">
-        <div class="arrow-container">
-          <a data-w-id="35cbd7a9-fd0c-abb5-b7be-cdb11ff3fe31" style="display:none" href="#" class="left-arrow-up w-inline-block"><img src="images/arrow-up.png" loading="lazy" alt=""></a>
-        </div>
-        <div class="empty-space"></div>
-        <div class="arrow-container">
-          <a data-w-id="0761335d-2212-2d78-b3cb-5929df02ba3c" style="display:none" href="#" class="center-arrow-up w-inline-block"><img src="images/arrow-up.png" loading="lazy" alt=""></a>
-        </div>
-        <div class="empty-space"></div>
-        <div class="arrow-container">
-          <a data-w-id="c065d9e9-08ef-2033-8266-ecd48253c7fe" style="display:none" href="#" class="right-arrow-up w-inline-block"><img src="images/arrow-up.png" loading="lazy" alt=""></a>
-        </div>
-      </div>
-      <div class="arrows-bottom">
-        <div class="arrow-container">
-          <a data-w-id="4e7149bc-6f8f-f0da-0141-77bef9b24919" href="#" class="left-arrow-down w-inline-block"><img src="images/arrow-down.png" loading="lazy" alt=""></a>
-        </div>
-        <div class="empty-space"></div>
-        <div class="arrow-container">
-          <a data-w-id="e32890d4-d3d3-554b-afe1-80c8f65811c1" href="#" class="center-arrow-down w-inline-block"><img src="images/arrow-down.png" loading="lazy" alt=""></a>
-        </div>
-        <div class="empty-space"></div>
-        <div class="arrow-container">
-          <a data-w-id="4e7149bc-6f8f-f0da-0141-77bef9b2491c" href="#" class="right-arrow-down w-inline-block"><img src="images/arrow-down.png" loading="lazy" alt=""></a>
-        </div>
-      </div><img src="images/cryptokitty_island.png" loading="lazy" style="-webkit-transform:translate3d(0, -1vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -1vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -1vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -1vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" data-w-id="991c70be-d910-b226-60b6-a9856bf3d83b" alt="" class="left-island"><img src="images/central-island.png" loading="lazy" data-w-id="20732bab-d5ad-9f98-dc2c-ff7d7b3bad7f" srcset="images/central-island-p-500.png 500w, images/central-island.png 698w" sizes="100vw" alt="" class="central-island"><img src="images/frozen_island.png" loading="lazy" style="-webkit-transform:translate3d(0, -3vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -3vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -3vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -3vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" data-w-id="6cc9ffab-2117-225c-3035-0bbabe85466a" alt="" class="right-island">
-    </div>
-    <div class="islands-two"><img src="images/ens_island.png" loading="lazy" style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="b09d5f91-febd-1822-adb4-82c4c45ce630" sizes="100vw" srcset="images/ens_island-p-500.png 500w, images/ens_island-p-800.png 800w, images/ens_island.png 924w" alt="" class="left-island"><img src="images/On_fire_tree-1.png" loading="lazy" style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="b09d5f91-febd-1822-adb4-82c4c45ce631" sizes="100vw" srcset="images/On_fire_tree-1-p-500.png 500w, images/On_fire_tree-1.png 698w" alt="" class="central-island"><img src="images/unicorn_island.png" loading="lazy" style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="b09d5f91-febd-1822-adb4-82c4c45ce632" sizes="100vw" srcset="images/unicorn_island-p-500.png 500w, images/unicorn_island-p-800.png 800w, images/unicorn_island.png 924w" alt="" class="right-island"></div>
-    <div class="islands-three"><img src="images/gothic_island.png" loading="lazy" style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="0e8becfe-01ab-8789-f1ec-959a42dc339d" alt="" class="left-island"><img src="images/red-tree.png" loading="lazy" style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="0e8becfe-01ab-8789-f1ec-959a42dc339e" sizes="100vw" srcset="images/red-tree-p-500.png 500w, images/red-tree.png 698w" alt="" class="central-island"><img src="images/jungle_island.png" loading="lazy" style="-webkit-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 5vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" data-w-id="0e8becfe-01ab-8789-f1ec-959a42dc339f" sizes="100vw" srcset="images/jungle_island-p-500.png 500w, images/jungle_island-p-800.png 800w, images/jungle_island.png 924w" alt="" class="right-island"></div>
-  </div>
-  <div class="sky-changer">
-    <a href="#" class="sky-link w-inline-block"><img src="images/Icon-sheet-48x48-4.png" loading="lazy" alt="" class="sky-icon"></a>
-    <a href="#" class="sky-link w-inline-block"><img src="images/Icon-sheet-48x48-5.png" loading="lazy" alt="" class="sky-icon"></a>
-    <a href="#" class="sky-link w-inline-block"><img src="images/Icon-sheet-48x48-6.png" loading="lazy" alt="" class="sky-icon"></a>
-    <a href="#" class="sky-link w-inline-block"><img src="images/Icon-sheet-48x48-7.png" loading="lazy" alt="" class="sky-icon"></a>
-    <a href="#" class="sky-link w-inline-block"><img src="images/Icon-sheet-48x48-8.png" loading="lazy" alt="" class="sky-icon"></a>
-  </div>
-  <div class="co2-progress-bar"><img src="images/bottom-tree.png" loading="lazy" alt="" class="image"><img src="images/bar.png" loading="lazy" alt="" class="image-2">
-    <div class="text-block"><strong>2.105 kg</strong> <span class="text-span">C</span>O2</div>
-  </div>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6216257fa1c0354a3888e0af" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=65f1a5e4d8a255af8eaea6b1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 </html>
