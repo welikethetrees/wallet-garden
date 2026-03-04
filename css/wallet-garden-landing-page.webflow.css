@@ -80,7 +80,7 @@ strong {
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   background-image: url('../images/button-open-app.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ strong {
 .button_learn_more {
   color: #f6ffed;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   background-image: url('../images/button-learn-more.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -333,10 +333,7 @@ strong {
   pointer-events: none;
   width: 50vw;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .third_divider {
@@ -460,7 +457,7 @@ strong {
 }
 
 .button_twitter {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   background-image: url('../images/button_twitter.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -475,7 +472,7 @@ strong {
 }
 
 .button_discord {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   background-image: url('../images/button_discord.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -507,10 +504,7 @@ strong {
   padding-top: 1vw;
   display: flex;
   position: fixed;
-  top: auto;
-  bottom: 3vw;
-  left: auto;
-  right: 2vw;
+  inset: auto 2vw 3vw auto;
 }
 
 .fixed_button_open_app {
@@ -519,7 +513,7 @@ strong {
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   background-image: url('../images/button-open-app.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -531,10 +525,7 @@ strong {
   font-size: 1.2vw;
   line-height: 1vw;
   position: fixed;
-  top: 3vw;
-  bottom: auto;
-  left: auto;
-  right: 2vw;
+  inset: 3vw 2vw auto auto;
 }
 
 .fixed_button_open_app:hover {
@@ -547,10 +538,7 @@ strong {
   width: 50vw;
   padding-right: 8vw;
   position: absolute;
-  top: 3vw;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 3vw 0% 0% auto;
 }
 
 .animated_bits {
@@ -558,65 +546,44 @@ strong {
   width: 100vw;
   height: 50vw;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .bird_large {
   width: 35vw;
   position: absolute;
-  top: auto;
-  bottom: 8.5vw;
-  left: auto;
-  right: 5vw;
+  inset: auto 5vw 8.5vw auto;
 }
 
 .bird_small {
   width: 9vw;
   position: absolute;
-  top: auto;
-  bottom: 10vw;
-  left: auto;
-  right: 44.3vw;
+  inset: auto 44.3vw 10vw auto;
 }
 
 .island_large {
   width: 11vw;
   position: absolute;
-  top: auto;
-  bottom: 18vw;
-  left: auto;
-  right: 55.1vw;
+  inset: auto 55.1vw 18vw auto;
 }
 
 .island_medium {
   width: 8vw;
   position: absolute;
-  top: auto;
-  bottom: 26vw;
-  left: auto;
-  right: 15vw;
+  inset: auto 15vw 26vw auto;
 }
 
 .island_small {
   width: 4vw;
   position: absolute;
-  top: auto;
-  bottom: 34vw;
-  left: auto;
-  right: 36vw;
+  inset: auto 36vw 34vw auto;
 }
 
 .first_illustration_island_1, .first_illustration_island_2, .first_illustration_island_3 {
   pointer-events: none;
   width: 22.5vw;
   position: absolute;
-  top: 6vw;
-  bottom: 0%;
-  left: auto;
-  right: 12.5vw;
+  inset: 6vw 12.5vw 0% auto;
 }
 
 .link_bit {
@@ -629,10 +596,7 @@ strong {
   pointer-events: none;
   width: 50vw;
   position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% 0% auto;
 }
 
 .fifth_illustration_2, .fifth_illustration_3, .fifth_illustration_4, .fifth_illustration_5, .fifth_illustration_6, .fifth_illustration_7, .fifth_illustration_8, .fifth_illustration_9, .fifth_illustration_10, .fifth_illustration_11, .fifth_illustration_12, .fifth_illustration_13 {
@@ -641,18 +605,15 @@ strong {
   width: 50vw;
   padding-right: 8vw;
   position: absolute;
-  top: 3vw;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: 3vw 0% 0% auto;
 }
 
 .opening_cover {
   z-index: 9999;
-  background-color: #1d252c;
+  background-color: #042238;
   width: 100vw;
   height: 100vh;
-  display: block;
+  display: none;
   position: fixed;
 }
 
@@ -717,10 +678,7 @@ strong {
   margin-top: 0;
   margin-bottom: 0;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .bottom-clouds-image-2 {
@@ -730,20 +688,14 @@ strong {
   margin-bottom: 0;
   margin-left: 99.9vw;
   position: absolute;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
 }
 
 .gradient {
   mix-blend-mode: multiply;
   background-image: linear-gradient(#bdf2f5, #d3f8e9);
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .logo-top {
@@ -751,10 +703,7 @@ strong {
   justify-content: center;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .image-3 {
@@ -796,10 +745,7 @@ strong {
 
 .top-left {
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .image-7 {
@@ -809,28 +755,19 @@ strong {
 .bottom-right {
   text-align: right;
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
+  inset: auto 0% 0% auto;
 }
 
 .bottom-left {
   width: 18vh;
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
+  inset: auto auto 0% 0%;
 }
 
 .top-right {
   text-align: right;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
+  inset: 0% 0% auto auto;
 }
 
 .image-6 {
@@ -852,10 +789,7 @@ strong {
   margin-right: auto;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .banyan-and-bracket {
@@ -871,10 +805,7 @@ strong {
   margin-bottom: 2vh;
   display: flex;
   position: relative;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: 0%;
 }
 
 .intro-text {
@@ -944,10 +875,7 @@ strong {
   width: 5vh;
   display: block;
   position: fixed;
-  top: 48vh;
-  bottom: auto;
-  left: 2vw;
-  right: auto;
+  inset: 48vh auto auto 2vw;
 }
 
 .form-block {
@@ -958,7 +886,7 @@ strong {
 .submit-button {
   text-transform: uppercase;
   cursor: pointer;
-  background-color: rgba(56, 152, 236, 0);
+  background-color: #3898ec00;
   background-image: url('../images/button.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -976,7 +904,7 @@ strong {
 .text-field {
   color: #393d53;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #fff0;
   background-image: url('../images/email-capture.png');
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -991,7 +919,7 @@ strong {
 }
 
 .success-message {
-  background-color: rgba(221, 221, 221, 0);
+  background-color: #ddd0;
   font-family: lores-9-wide, sans-serif;
 }
 
@@ -1202,10 +1130,7 @@ strong {
   .third_illustration_ape {
     width: 100vw;
     padding-left: 10vw;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .third_divider {
@@ -1261,10 +1186,7 @@ strong {
     width: 100vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .animated_bits {
@@ -1283,29 +1205,20 @@ strong {
   .first_illustration_island_1, .first_illustration_island_2, .first_illustration_island_3 {
     width: 50vw;
     padding-left: 5vw;
-    top: auto;
-    bottom: 50px;
-    left: auto;
-    right: 22vw;
+    inset: auto 22vw 50px auto;
   }
 
   .third_illustration_punk, .third_illustration_mooncat {
     width: 100vw;
     padding-left: 10vw;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .fifth_illustration_2, .fifth_illustration_3, .fifth_illustration_4, .fifth_illustration_5, .fifth_illustration_6, .fifth_illustration_7, .fifth_illustration_8, .fifth_illustration_9, .fifth_illustration_10, .fifth_illustration_11, .fifth_illustration_12, .fifth_illustration_13 {
     width: 100vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    top: auto;
-    bottom: 0%;
-    left: auto;
-    right: 0%;
+    inset: auto 0% 0% auto;
   }
 
   .mid-clouds-image, .mid-clouds-image-2 {
